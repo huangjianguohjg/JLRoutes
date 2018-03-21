@@ -16,6 +16,11 @@
 		D7BC16502062831100ECABFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BC164F2062831100ECABFD /* main.m */; };
 		D7BC165A2062831100ECABFD /* JLRoutesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BC16592062831100ECABFD /* JLRoutesTests.m */; };
 		D7BC16652062831100ECABFD /* JLRoutesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BC16642062831100ECABFD /* JLRoutesUITests.m */; };
+		D7BC16742062877200ECABFD /* HJGOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BC16732062877200ECABFD /* HJGOneController.m */; };
+		D7BC16772062877F00ECABFD /* HJGTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BC16762062877F00ECABFD /* HJGTwoController.m */; };
+		D7BC167A2062878D00ECABFD /* HJGThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BC16792062878D00ECABFD /* HJGThreeController.m */; };
+		D7BC167D206287EE00ECABFD /* HJGController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BC167C206287EE00ECABFD /* HJGController.m */; };
+		D7BC16802062880C00ECABFD /* HJGNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BC167F2062880C00ECABFD /* HJGNavController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,16 @@
 		D7BC16602062831100ECABFD /* JLRoutesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLRoutesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7BC16642062831100ECABFD /* JLRoutesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLRoutesUITests.m; sourceTree = "<group>"; };
 		D7BC16662062831100ECABFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7BC16722062877200ECABFD /* HJGOneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJGOneController.h; sourceTree = "<group>"; };
+		D7BC16732062877200ECABFD /* HJGOneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGOneController.m; sourceTree = "<group>"; };
+		D7BC16752062877F00ECABFD /* HJGTwoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJGTwoController.h; sourceTree = "<group>"; };
+		D7BC16762062877F00ECABFD /* HJGTwoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGTwoController.m; sourceTree = "<group>"; };
+		D7BC16782062878D00ECABFD /* HJGThreeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJGThreeController.h; sourceTree = "<group>"; };
+		D7BC16792062878D00ECABFD /* HJGThreeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGThreeController.m; sourceTree = "<group>"; };
+		D7BC167B206287EE00ECABFD /* HJGController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJGController.h; sourceTree = "<group>"; };
+		D7BC167C206287EE00ECABFD /* HJGController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGController.m; sourceTree = "<group>"; };
+		D7BC167E2062880C00ECABFD /* HJGNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJGNavController.h; sourceTree = "<group>"; };
+		D7BC167F2062880C00ECABFD /* HJGNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGNavController.m; sourceTree = "<group>"; };
 		DD8A50996B8B6AC9B2CB251E /* Pods-JLRoutes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLRoutes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLRoutes/Pods-JLRoutes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,6 +149,16 @@
 				D7BC164B2062831100ECABFD /* LaunchScreen.storyboard */,
 				D7BC164E2062831100ECABFD /* Info.plist */,
 				D7BC164F2062831100ECABFD /* main.m */,
+				D7BC16722062877200ECABFD /* HJGOneController.h */,
+				D7BC16732062877200ECABFD /* HJGOneController.m */,
+				D7BC16752062877F00ECABFD /* HJGTwoController.h */,
+				D7BC16762062877F00ECABFD /* HJGTwoController.m */,
+				D7BC16782062878D00ECABFD /* HJGThreeController.h */,
+				D7BC16792062878D00ECABFD /* HJGThreeController.m */,
+				D7BC167B206287EE00ECABFD /* HJGController.h */,
+				D7BC167C206287EE00ECABFD /* HJGController.m */,
+				D7BC167E2062880C00ECABFD /* HJGNavController.h */,
+				D7BC167F2062880C00ECABFD /* HJGNavController.m */,
 			);
 			path = JLRoutes;
 			sourceTree = "<group>";
@@ -343,9 +368,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7BC167D206287EE00ECABFD /* HJGController.m in Sources */,
+				D7BC167A2062878D00ECABFD /* HJGThreeController.m in Sources */,
+				D7BC16742062877200ECABFD /* HJGOneController.m in Sources */,
+				D7BC16772062877F00ECABFD /* HJGTwoController.m in Sources */,
 				D7BC16452062831100ECABFD /* ViewController.m in Sources */,
 				D7BC16502062831100ECABFD /* main.m in Sources */,
 				D7BC16422062831100ECABFD /* AppDelegate.m in Sources */,
+				D7BC16802062880C00ECABFD /* HJGNavController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
