@@ -7,7 +7,7 @@
 //
 
 #import "HJGController.h"
-#import <JLRoutes.h>
+#import "JLRoutes.h"
 #define  JLRoutesJumpUrl(module,toController,paramaOne,paramaTwo,paramaThree,paramaFour) [NSString stringWithFormat:@"%@://%@/%@/%@/%@/%@",module,toController,paramaOne,paramaTwo,paramaThree,paramaFour];
 
 @interface HJGController ()
